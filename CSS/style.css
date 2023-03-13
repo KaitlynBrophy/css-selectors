@@ -4,50 +4,49 @@ html{
   padding: 0 2em;
 }
 
-h1 ~ a {
-  color: purple;
-  font-family: sans-serif;
-  font-weight: bold;
-}
+h1 {font-family: sans-serif;
+margin-bottom: 0;}
 
-h1, h2, h3 {
-  font-family: sans-serif;
-  margin-bottom: 0;
-}
+h2 {font-family: sans-serif;
+text-transform: uppercase;
+border-bottom: 2px solid #000;}
 
-h1 + p {
-  color:purple;
-  font-family: sans-serif;
-  font-weight: bold;
-}
+h3 {font-family: sans-serif;
+margin-bottom: 0;}
 
-h2 + p {
-  color:purple;
-  font-family: sans-serif;
-  font-weight: bold;
-}
+/* h1, h2, h3 also works to select multiple*/
 
-h3 + p {
-  color:purple;
-  font-family: sans-serif;
-  font-weight: bold;
-}
+h3 +p {color: purple;
+font-family: sans-serif;
+font-weight: bold;}
 
-div > h3 {
-  margin: 1em 0;
-}
-
-h1 + p {
-  text-transform: uppercase;
-  border-bottom: 2px solid #000;
-}
+h1+p{color: purple;font-size: 1.25rem;
+font-weight: bold; font-family: sans-serif;}
 
 
-ul li:first-child {
-  font-size: 1.25rem;
-}
 img{
   width: 150px;
   border-radius: 50%;
 }
 
+p> section main{color: purple;}
+
+p {margin: 
+  .5em 0;}
+
+
+
+section-1{border-bottom:2px dashed #ccc;}
+
+li:nth-last-child(2){color:purple}
+
+
+dl :last-child{background-color: #ccc;}
+
+#section-2 > h2 p strong {color: purple}
+
+#section-5 main{margin-bottom: 3rem;}
+
+a{color:purple}
+
+#section-1 strong{colour:purple;}
